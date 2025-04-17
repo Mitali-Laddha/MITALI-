@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mitali Laddha - Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background: linear-gradient(135deg, #e0f7fa, #fce4ec);
+      color: #333;
+      margin: 0;
+      padding: 0;
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      background: #ffffffdd;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      animation: slideUp 1s ease-in-out;
+    }
+    @keyframes slideUp {
+      from { transform: translateY(30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    h1, h2 {
+      font-family: 'Raleway', sans-serif;
+      color: #880e4f;
+    }
+    h1 {
+      font-size: 36px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .section-title {
+      font-size: 24px;
+      border-left: 6px solid #d81b60;
+      padding-left: 12px;
+      margin-bottom: 15px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    a {
+      color: #d81b60;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .highlight {
+      font-weight: bold;
+      color: #4a148c;
+    }
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      text-align: center;
+      border-top: 2px dashed #d81b60;
+      font-style: italic;
+      color: #6a1b9a;
+      font-size: 18px;
+    }
+    .download-button {
+      display: block;
+      width: fit-content;
+      margin: 20px auto;
+      background-color: #d81b60;
+      color: white;
+      padding: 12px 24px;
+      text-align: center;
+      border-radius: 25px;
+      font-weight: bold;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+    .download-button:hover {
+      background-color: #ad1457;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Mitali Laddha</h1>
+
+    <a href="Resume.jpg" download class="download-button">📄 Download Resume</a>
+
+    <div class="section contact">
+      <h2 class="section-title">Contact</h2>
+      <p><span class="highlight">Address:</span> Pune, India 411052</p>
+      <p><span class="highlight">Phone:</span> +91 9579604877</p>
+      <p><span class="highlight">Email:</span> <a href="mailto:laddhamitali@gmail.com">laddhamitali@gmail.com</a></p>
+    </div>
+
+    <div class="section summary">
+      <h2 class="section-title">Summary</h2>
+      <p>Second-year Electronics student with a specialization in Artificial Intelligence and Machine Learning. Passionate about programming with proficiency in Python, C, and Java. Enthusiastic learner with a strong foundation in data structures and algorithms. Eager to apply technical knowledge in real-world projects and contribute to innovative tech solutions.</p>
+    </div>
+
+    <div class="section education">
+      <h2 class="section-title">Education and Training</h2>
+      <ul>
+        <li><strong>Bachelors in Technology (ENTC with AIML)</strong> – MIT-WPU SOE, Pune</li>
+        <li><strong>HSC, Science (03/2023)</strong> – D.N. College Of Science And Commerce, Jalgaon, MH</li>
+        <li><strong>SSC (03/2021)</strong> – USI School for Primary and Secondary Education, Jalgaon, MH</li>
+      </ul>
+    </div>
+
+    <div class="section certifications">
+      <h2 class="section-title">Certifications</h2>
+      <ul>
+        <li>Matlab On Ramp</li>
+        <li>Matlab Signaling</li>
+        <li>C Programming by Softaid</li>
+        <li>C++ by Codechef and Hackerrank</li>
+        <li>Python Learning by MIT-WPU</li>
+      </ul>
+    </div>
+
+    <div class="section skills">
+      <h2 class="section-title">Skills</h2>
+      <ul>
+        <li>Probability & Statistics</li>
+        <li>Python Programming</li>
+        <li>Matlab Programming</li>
+      </ul>
+    </div>
+
+    <div class="section languages">
+      <h2 class="section-title">Languages</h2>
+      <p><strong>Hindi:</strong> First Language</p>
+      <p><strong>English:</strong> Proficient (C2)</p>
+    </div>
+
+    <div class="section links">
+      <h2 class="section-title">Websites, Portfolios, Profiles</h2>
+      <p><a href="https://www.linkedin.com/in/mitali-laddha-142a832a9" target="_blank">LinkedIn Profile</a></p>
+    </div>
+
+    <div class="footer">
+      ✨ Did you like my profile? Feel free to connect or drop me a message! 😊
+    </div>
+  </div>
+</body>
+</html>
